@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .main {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .informacoes {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .destaque .destaque-info {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .destaque .destaque-info .destaque-info-texto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .destaque .destaque-info .destaque-info-texto .btn {
+        align-self: center;
+    }
+}

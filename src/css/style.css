@@ -1,0 +1,182 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    background-color: var(--off-white);
+    max-width: 1440px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.header nav ul li:hover{
+    color: var(--Soft-red);
+}
+
+.main{
+    display: flex;
+    gap: 40px;
+}
+
+.destaque {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.destaque img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.destaque .destaque-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaque .destaque-info h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    width: 300px;
+}
+
+.destaque .destaque-info .destaque-info-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+
+.destaque .destaque-info .destaque-info-texto p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+.destaque .destaque-info .destaque-info-texto .btn {
+    background-color: var(--Soft-red);
+    color: var(--off-white);
+    width: 250px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.destaque .destaque-info .destaque-info-texto .btn:hover{
+    background-color: var(--very-dark-blue);
+}
+
+.novidades {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
+    padding: 20px;
+    width: 300px;
+}
+
+.novidades h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--soft-orange);
+    margin-bottom: 50px;
+}
+
+.novidades h2:hover {
+    color: var(--soft-orange);
+}
+
+.novidades .novidade {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.novidades .novidade span {
+    border: 1px solid #333333;
+}
+
+.novidades .novidade .novidade-info h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.novidades .novidade .novidade-info h3:hover {
+    color: var(--soft-orange);
+}
+
+.novidades .novidade .novidade-info p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--grayish-blue);
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.informacoes .informacao {
+    display: flex;
+    gap: 30px;
+}
+
+.informacoes .informacao img {
+    width: 150px;
+}
+
+.informacoes .informacao .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacoes .informacao .info h4 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--grayish-blue);
+}
+
+.informacoes .informacao .info span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.informacoes .informacao .info span:hover {
+    color: var(--Soft-red);
+}
+
+.informacoes .informacao .info p {
+    font-size: 1.6rem;
+    color: #555555;
+    line-height: 30px;
+}
